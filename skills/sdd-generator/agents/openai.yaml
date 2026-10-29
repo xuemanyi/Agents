@@ -1,0 +1,4 @@
+interface:
+  display_name: "软件详细设计（SDD）生成器"
+  short_description: "从源码生成、更新或审查详细设计，追踪文件、函数契约、异常路径、资源与同步约束"
+  default_prompt: "使用 $sdd-generator，根据指定项目源码创建或更新 Software_Detailed_Design.md，关联 SRS/SAD，标注源码证据、配置条件、覆盖范围与未确认项。"

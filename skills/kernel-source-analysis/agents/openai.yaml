@@ -1,0 +1,4 @@
+interface:
+  display_name: "Linux 内核源码事实分析"
+  short_description: "只读追踪内核调用、数据流、生命周期与同步约束，提供可复核的分级源码证据"
+  default_prompt: "使用 $kernel-source-analysis，只读分析指定 Linux 内核源码对象，注明基线、条件、行号与证据等级，并列出未确认事项。"

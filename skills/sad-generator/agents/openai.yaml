@@ -1,0 +1,4 @@
+interface:
+  display_name: "软件架构设计（SAD）生成器"
+  short_description: "从源码生成、更新或评审架构文档，追踪组件、接口与运行模型，区分事实、风险和建议"
+  default_prompt: "使用 $sad-generator，根据指定项目源码创建或更新 Software_Architecture_Design.md，标注基线、证据、配置条件与覆盖缺口。"

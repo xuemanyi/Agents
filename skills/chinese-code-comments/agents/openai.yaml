@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文代码注释规范"
+  short_description: "依据真实源码生成或审查中文注释，规范函数契约、数据结构、并发与生命周期说明"
+  default_prompt: "使用 $chinese-code-comments，为指定代码补充准确、简洁的中文注释，遵循项目风格与适用的 KernelDoc，仅修改注释并核对源码依据。"

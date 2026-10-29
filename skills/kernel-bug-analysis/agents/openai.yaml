@@ -1,0 +1,4 @@
+interface:
+  display_name: "Linux 内核 Bug 分析"
+  short_description: "结合匹配源码、日志与复现证据定位内核故障，区分候选原因、已证实缺陷及事故根因"
+  default_prompt: "使用 $kernel-bug-analysis，分析指定内核源码和故障日志，建立可复核因果链，区分候选原因与已确认根因，并提出最小修复和验证方案；默认只读分析。"

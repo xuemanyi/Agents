@@ -1,0 +1,4 @@
+interface:
+  display_name: "测试验证文档生成器"
+  short_description: "生成或评审可复现的测试计划、用例及验证报告，追踪需求和证据，区分预期与实际结果"
+  default_prompt: "使用 $test-verification-doc，根据指定项目资料生成或更新测试验证文档，提供可复现步骤、判定标准与证据追踪；没有实际运行记录的用例标记未执行，不自动运行测试。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git 本地提交"
+  short_description: "审查任务相关变更并生成规范英文提交信息，仅执行本地 commit，所有推送由用户完成"
+  default_prompt: "使用 $git-commit，检查并仅提交本次任务相关改动，使用简短英文 Conventional Commits 信息；不要执行任何 push，由我自行推送。"
